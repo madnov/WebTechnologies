@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Приветствие</title>
+
+</head>
+<link href="D:\HTML5\style.css" rel="stylesheet" type="text/css">
+
+<body>
+    <h1>Как вас зовут?</h1>
+
+    <form>
+        <label for="name" ,center>Введите ваше имя:</label>
+        <input type="text" id="name" placeholder="Имя">
+        <button type="button" onclick="greet()">Ввод</button>
+    </form>
+
+    <script>
+        function greet() {
+            var name = document.getElementById("name").value;
+            alert("Привет " + name + "!");
+        }
+    </script>
+</body>
+
+
+
+
+
+
+
+<footer>2023(c)</footer>
+
+</html>
